@@ -1,0 +1,268 @@
+{
+  "feedbacks" : [
+    {
+      "forms" : [
+        {
+          "hint" : "请输入您的宝贵建议",
+          "max_len" : 400,
+          "report_fail" : "您忘了输入建议哦",
+          "required" : true,
+          "type" : "texts"
+        }
+      ],
+      "problem_desc" : "我有建议",
+      "problem_id" : 1
+    },
+    {
+      "forms" : [
+        {
+          "items" : [
+            {
+              "select_desc" : "获取XX权限过程中",
+              "select_id" : "1"
+            },
+            {
+              "select_desc" : "移除XX权限过程中",
+              "select_id" : "2"
+            },
+            {
+              "select_desc" : "卸载预装应用时",
+              "select_id" : "3"
+            },
+            {
+              "select_desc" : "管理自启应用时",
+              "select_id" : "4"
+            },
+            {
+              "select_desc" : "更换系统字体时",
+              "select_id" : "5"
+            },
+            {
+              "select_desc" : "安装推荐应用时",
+              "select_id" : "6"
+            },
+            {
+              "select_desc" : "其他(请补充说明)",
+              "select_id" : "7"
+            }
+          ],
+          "prompt" : "出现意外退出的操作或场景是？",
+          "report_fail" : "请勾选出现意外退出的操作或场景",
+          "required" : true,
+          "type" : "multi_select"
+        },
+        {
+          "hint" : "请描述您在遇到问题前的操作过程",
+          "max_len" : 140,
+          "report_fail" : "",
+          "required" : false,
+          "type" : "texts"
+        }
+      ],
+      "problem_desc" : "程序意外退出",
+      "problem_id" : 2
+    },
+    {
+      "forms" : [
+        {
+          "items" : [
+            {
+              "select_desc" : "已正常安装",
+              "select_id" : "8"
+            },
+            {
+              "select_desc" : "有图标，但无法启动",
+              "select_id" : "9"
+            },
+            {
+              "select_desc" : "无法找到XX App",
+              "select_id" : "10"
+            }
+          ],
+          "prompt" : "您的手机中是否安装了XX助手App？",
+          "report_fail" : "您还没有勾选上方的选项哦",
+          "required" : true,
+          "type" : "single_select"
+        },{
+          "items" : [
+            {
+              "select_desc" : "已正常安装",
+              "select_id" : "8"
+            },
+            {
+              "select_desc" : "有图标但无法启动",
+              "select_id" : "9"
+            },
+            {
+              "select_desc" : "无法找到XX助手App",
+              "select_id" : "10"
+            }
+          ],
+          "prompt" : "您的手机中是否安装了YY助手App？",
+          "report_fail" : "您还没有勾选上方的选项哦",
+          "required" : true,
+          "type" : "single_select"
+        },{
+          "items" : [
+            {
+              "select_desc" : "已正常安装",
+              "select_id" : "8"
+            },
+            {
+              "select_desc" : "有图标但无法启动",
+              "select_id" : "9"
+            },
+            {
+              "select_desc" : "无法找到YY助手App",
+              "select_id" : "10"
+            }
+          ],
+          "prompt" : "您的手机中是否安装了ZZ助手App？",
+          "report_fail" : "您还没有勾选上方的选项哦",
+          "required" : true,
+          "type" : "single_select"
+        },{
+          "items" : [
+            {
+              "select_desc" : "已正常安装",
+              "select_id" : "8"
+            },
+            {
+              "select_desc" : "有图标但无法启动",
+              "select_id" : "9"
+            },
+            {
+              "select_desc" : "无法找到ZZ助手App",
+              "select_id" : "10"
+            }
+          ],
+          "prompt" : "您的手机中是否安装了CC助手App？",
+          "report_fail" : "您还没有勾选上方的选项哦",
+          "required" : true,
+          "type" : "single_select"
+        },{
+          "items" : [
+            {
+              "select_desc" : "已正常安装",
+              "select_id" : "8"
+            },
+            {
+              "select_desc" : "有图标但无法启动",
+              "select_id" : "9"
+            },
+            {
+              "select_desc" : "无法找到CC助手App",
+              "select_id" : "10"
+            }
+          ],
+          "prompt" : "您的手机中是否安装了KK助手App？",
+          "report_fail" : "您还没有勾选上方的选项哦",
+          "required" : true,
+          "type" : "single_select"
+		   },
+		    {
+			"hint" : "11111您是怎样发现没有XX权限的？",
+			"max_len" : 140,
+			"report_fail" : "",
+			"required" : false,
+			"type" : "texts"
+			},
+            {
+              "hint" : "22222您是怎样发现没有XX权限的？",
+              "max_len" : 140,
+              "report_fail" : "",
+              "required" : false,
+              "type" : "texts"
+			}
+      ],
+      "problem_desc" : "破解成功后没有权限",
+      "problem_id" : 3
+    },
+    {
+      "forms" : [
+        {
+          "items" : [
+            {
+              "select_desc" : "卸载预装",
+              "select_id" : "11"
+            },
+            {
+              "select_desc" : "自启管理",
+              "select_id" : "12"
+            },
+            {
+              "select_desc" : "换个字体",
+              "select_id" : "13"
+            },
+            {
+              "select_desc" : "其他(请补充说明)",
+              "select_id" : "14"
+            }
+          ],
+          "prompt" : "是什么功能无法使用？",
+          "report_fail" : "您还没有选择无法使用的功能哦",
+          "required" : true,
+          "type" : "single_select"
+        },
+        {
+          "hint" : "请补充说明您遇到的问题",
+          "max_len" : 140,
+          "required" : false,
+          "type" : "texts"
+        }
+      ],
+      "problem_desc" : "部分功能无法使用",
+      "problem_id" : 4
+    },
+    {
+      "forms" : [
+        {
+          "items" : [
+            {
+              "select_desc" : "出现在通知栏中",
+              "select_id" : "15"
+            },
+            {
+              "select_desc" : "在使用过程中弹出浮层广告",
+              "select_id" : "16"
+            },
+            {
+              "select_desc" : "常驻在程序界面底部",
+              "select_id" : "17"
+            },
+            {
+              "select_desc" : "出现在其他地方",
+              "select_id" : "18"
+            }
+          ],
+          "prompt" : "广告是怎样出现的？",
+          "report_fail" : "您还没有勾选上方的选项哦",
+          "required" : true,
+          "type" : "multi_select"
+        },
+        {
+          "hint" : "广告中的内容是什么？",
+          "max_len" : 140,
+          "report_fail" : "",
+          "required" : false,
+          "type" : "texts"
+        }
+      ],
+      "problem_desc" : "出现了莫名其妙的广告",
+      "problem_id" : 5
+    },
+    {
+      "forms" : [
+        {
+          "hint" : "请描述您遇到的问题",
+          "max_len" : 140,
+          "report_fail" : "您忘了输入问题哦",
+          "required" : true,
+          "type" : "texts"
+        }
+      ],
+      "problem_desc" : "其他问题",
+      "problem_id" : 6
+    }
+  ]
+}
