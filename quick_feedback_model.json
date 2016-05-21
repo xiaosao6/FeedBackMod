@@ -83,97 +83,101 @@
           "report_fail" : "您还没有勾选上方的选项哦",
           "required" : true,
           "type" : "single_select"
-        },{
+        },
+        {
           "items" : [
             {
               "select_desc" : "已正常安装",
-              "select_id" : "8"
+              "select_id" : "801"
             },
             {
               "select_desc" : "有图标但无法启动",
-              "select_id" : "9"
+              "select_id" : "901"
             },
             {
               "select_desc" : "无法找到XX助手App",
-              "select_id" : "10"
+              "select_id" : "1001"
             }
           ],
           "prompt" : "您的手机中是否安装了YY助手App？",
           "report_fail" : "您还没有勾选上方的选项哦",
           "required" : true,
           "type" : "single_select"
-        },{
+        },
+        {
           "items" : [
             {
               "select_desc" : "已正常安装",
-              "select_id" : "8"
+              "select_id" : "802"
             },
             {
               "select_desc" : "有图标但无法启动",
-              "select_id" : "9"
+              "select_id" : "902"
             },
             {
               "select_desc" : "无法找到YY助手App",
-              "select_id" : "10"
+              "select_id" : "1002"
             }
           ],
           "prompt" : "您的手机中是否安装了ZZ助手App？",
           "report_fail" : "您还没有勾选上方的选项哦",
           "required" : true,
           "type" : "single_select"
-        },{
+        },
+        {
           "items" : [
             {
               "select_desc" : "已正常安装",
-              "select_id" : "8"
+              "select_id" : "803"
             },
             {
               "select_desc" : "有图标但无法启动",
-              "select_id" : "9"
+              "select_id" : "903"
             },
             {
               "select_desc" : "无法找到ZZ助手App",
-              "select_id" : "10"
+              "select_id" : "1003"
             }
           ],
           "prompt" : "您的手机中是否安装了CC助手App？",
           "report_fail" : "您还没有勾选上方的选项哦",
           "required" : true,
           "type" : "single_select"
-        },{
+        },
+        {
           "items" : [
             {
               "select_desc" : "已正常安装",
-              "select_id" : "8"
+              "select_id" : "804"
             },
             {
               "select_desc" : "有图标但无法启动",
-              "select_id" : "9"
+              "select_id" : "904"
             },
             {
               "select_desc" : "无法找到CC助手App",
-              "select_id" : "10"
+              "select_id" : "1004"
             }
           ],
           "prompt" : "您的手机中是否安装了KK助手App？",
           "report_fail" : "您还没有勾选上方的选项哦",
           "required" : true,
           "type" : "single_select"
-		   },
-		    {
-			"hint" : "11111您是怎样发现没有XX权限的？",
-			"max_len" : 140,
-			"report_fail" : "",
-			"required" : false,
-			"type" : "texts"
-			},
-            {
-              "hint" : "22222您是怎样发现没有XX权限的？",
-              "max_len" : 140,
-              "report_fail" : "",
-              "required" : false,
-              "type" : "texts"
-			}
+        },
+        {
+          "hint" : "11111您是怎样发现没有XX权限的？",
+          "max_len" : 140,
+          "report_fail" : "",
+          "required" : false,
+          "type" : "texts"
+        },
+        {
+          "hint" : "22222您是怎样发现没有XX权限的？",
+          "max_len" : 140,
+          "report_fail" : "",
+          "required" : false,
+          "type" : "texts"
+        }
       ],
       "problem_desc" : "破解成功后没有权限",
       "problem_id" : 3
